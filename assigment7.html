@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <style>
+        form {
+            margin: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        #hiddenDiv {
+            padding: 20px;
+            background-color: lightgray;
+            margin-top: 10px;
+        }
+    </style>
+    
+    
+
+    <form id="usernameForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <button type="submit">Submit</button>
+    </form>
+
+    
+    <button id="toggleButton">Toggle Div</button>
+    <div id="hiddenDiv" class="hidden">
+       <p> This is a hidden div. Click the button to toggle its visibility. </p>
+    </div>
+    
+
+    <Script src="Script7.js"></Script>
+</body>
+</html>

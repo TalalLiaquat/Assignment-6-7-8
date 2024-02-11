@@ -1,0 +1,8 @@
+        
+#myDiv {
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for color change */
+}
